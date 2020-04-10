@@ -1,21 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(125deg,#2bcbba,#20bf6b,#a55eea,#4b7bec,#2d98da);
-  background-size: 400%;
-  animation: bganimation 15s infinite;
-}
-
-@keyframes bganimation {
-  0%{
-    background-position: 0% 50%;
-  }
-  50%{
-    background-position: 100% 50%;
-  }
-  100%{
-    background-position: 0% 50%;
-  }
+  background-color: #66c18c;
 }
 /* 头部开始 */
 .header{
