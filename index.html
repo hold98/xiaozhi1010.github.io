@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<div id="mydiv">
     <!-- 头部开始 -->
     <header>
         <div class="header" id="header">
@@ -55,6 +56,7 @@
         </div>
     </footer>
     <!-- 底部结束 -->
+</div>
     <!-- 返回顶部开始 -->
     <div id="article"></div>
     <div id="back_top">
@@ -64,6 +66,28 @@
     <script src="http://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.min.js"></script>
     <script src="/js/topbotton.js"></script>
     <!-- 返回顶部结束 -->
+    <!-- 背景 -->
+    <script type="text/javascript" src="/js/canvas-particle.js"></script>
+    <script type="text/javascript">
+		window.onload = function() {
+		    //配置
+		    var config = {
+		        vx: 4,	//小球x轴速度,正为右，负为左
+		        vy: 4,	//小球y轴速度
+		        height: 2,	//小球高宽，其实为正方形，所以不宜太大
+		        width: 2,
+		        count: 200,		//点个数
+		        color: "238,247,242", 	//点颜色
+		        stroke: "238,247,242", 		//线条颜色
+		        dist: 6000, 	//点吸附距离
+		        e_dist: 20000, 	//鼠标吸附加速距离
+		        max_conn: 10 	//点到点最大连接数
+		    }
+
+		    //调用
+		    CanvasParticle(config);
+		}
+	</script>
 </body>
 
 </html>
