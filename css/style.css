@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #66c18c;
+
+}
+
+/* 头部开始 */
+.header {
+  width: 1000px;
+  height: 280px;
+  margin: 10px auto;
+}
+
+.tx {
+  text-align: center;
+}
+
+.tx img {
+  width: 200px;
+  margin-top: 35px;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  font-family: "楷体";
+  font-size: 35px;
+}
+
+/* 头部结束 */
+/* 导航开始 */
+.nav {
+  width: 1000px;
+  height: 80px;
+  background-color: rgba(220, 38, 38, 0.2);
+  box-shadow: 10px 10px 10px rgba(220, 38, 38, 0.2);
+  margin: 100px auto;
+  border-radius: 45px;
+}
+
+.nav ul li {
+  float: left;
+  margin: 30px auto;
+}
+
+.nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0 70px;
+  font-size: 20px;
+  color: #000000;
+  font-family: "黑体";
+}
+
+.nav ul li a:hover {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* 导航结束 */
+/* main部分 */
+.main {
+  width: 1000px;
+  height: 500px;
+  /* background-color: aquamarine; */
+  margin: 60px auto;
+}
+
+.oneblog,
+.twoblog,
+.threeblog {
+  width: 600px;
+  height: 150px;
+  /* background-color: #bdc3c7; */
+  background-color: rgba(220, 38, 38, 0.2);
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px rgba(220, 38, 38, 0.2);
+  border-radius: 10px;
+}
+
+.oneblog a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.twoblog a {
+  color: #000000;
+  text-decoration: none;
+}
+.threeblog a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.oneblog a:hover {
+  color: #ffffff;
+}
+
+.twoblog a:hover {
+  color: #ffffff;
+}
+
+.threeblog a:hover {
+  color: #ffffff;
+}
+
+.oneblog p {
+  font-size: 14px;
+}
+
+.twoblog {
+  margin: 50px auto;
+}
+
+.twoblog p {
+  font-size: 14px;
+}
+.threeblog p {
+  font-size: 14px;
+}
+
+/* main结束 */
+/* 底部开始 */
+.footer {
+  width: 1000px;
+  height: 200px;
+  /* background-color: chartreuse; */
+  margin: 0 auto;
+}
+
+.contact {
+  width: 600px;
+  height: 100px;
+  /* background-color: #ffffff; */
+  margin: 0 auto;
+}
+
+.contact img {
+  width: 50px;
+  margin: 25px 45px;
+}
+
+.link {
+  width: 600px;
+  height: 100px;
+  /* background-color: cyan; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link a:hover {
+  color: #ffffff;
+}
+
+/* 底部结束 */
+/* 返回顶部开始 */
+.arrow {
+  border: 9px solid transparent;
+  border-bottom-color: #3DA0DB;
+  width: 0px;
+  height: 0px;
+  top: 5px
+}
+
+.stick {
+  width: 8px;
+  height: 14px;
+  border-radius: 1px;
+  background-color: #3DA0DB;
+  top: 20px;
+}
+
+#back_top div {
+  position: absolute;
+  margin: auto;
+  right: 0px;
+  left: 0px;
+}
+
+#back_top {
+  background-color: rgba(220, 38, 38, 0.2);
+  height: 48px;
+  width: 48px;
+  border-radius: 3px;
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  display: none;
+  border-radius: 50%;
+}
+
+/* 返回顶部结束 */
